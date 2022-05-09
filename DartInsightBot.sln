@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DartInsightBot", "DartInsightBot\DartInsightBot.csproj", "{18A9E6BF-6834-414B-8816-519557EF96EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18A9E6BF-6834-414B-8816-519557EF96EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A9E6BF-6834-414B-8816-519557EF96EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A9E6BF-6834-414B-8816-519557EF96EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A9E6BF-6834-414B-8816-519557EF96EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C930EF6C-4D42-4FFA-817B-86596D704A15}
+	EndGlobalSection
+EndGlobal
