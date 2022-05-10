@@ -6,11 +6,11 @@
 using Microsoft.Bot.Builder;
 using Microsoft.Bot.Schema;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Diagnostics;
 
 namespace DartInsightBot.Bots
 {
@@ -19,24 +19,21 @@ namespace DartInsightBot.Bots
         protected override async Task OnMessageActivityAsync(ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken)
         {
             string url = turnContext.Activity.Text;
-            var httpWebRequest = (HttpWebRequest)WebRequest.Create("http://localhost:8089/api/v1/content");
+            var httpWebRequest = (HttpWebRequest)WebRequest.Create("http://144.24.77.28:8089/api/v1/content");
             httpWebRequest.ContentType = "application/json";
             httpWebRequest.Method = "POST";
 
             Debug.Write(url);
             using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
             {
-               
+
                 string json = "{\"title\":\"\"," +
                              $"\"url\":\"{url}" + "\"," +
                              "\"author\":\"master\"," +
                              "\"createdDate\":\"\"," +
                              "\"keywords\":\"\"}";
 
-                streamWriter.Write(json); 
-                               
-
-        
+                streamWriter.Write(json);
             }
 
             var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
@@ -61,5 +58,5 @@ namespace DartInsightBot.Bots
                 }
             }
         }
-	}
+    }
 }

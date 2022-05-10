@@ -85,7 +85,6 @@ C:\workspace\Dart_Insight_chatBot\DartInsightBot\bin\Debug\netcoreapp3.1\System.
 C:\workspace\Dart_Insight_chatBot\DartInsightBot\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
 C:\workspace\Dart_Insight_chatBot\DartInsightBot\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
 C:\workspace\Dart_Insight_chatBot\DartInsightBot\bin\Debug\netcoreapp3.1\System.Text.Json.dll
-C:\workspace\Dart_Insight_chatBot\DartInsightBot\obj\Debug\netcoreapp3.1\DartInsightBot.csproj.AssemblyReference.cache
 C:\workspace\Dart_Insight_chatBot\DartInsightBot\obj\Debug\netcoreapp3.1\DartInsightBot.GeneratedMSBuildEditorConfig.editorconfig
 C:\workspace\Dart_Insight_chatBot\DartInsightBot\obj\Debug\netcoreapp3.1\DartInsightBot.AssemblyInfoInputs.cache
 C:\workspace\Dart_Insight_chatBot\DartInsightBot\obj\Debug\netcoreapp3.1\DartInsightBot.AssemblyInfo.cs
